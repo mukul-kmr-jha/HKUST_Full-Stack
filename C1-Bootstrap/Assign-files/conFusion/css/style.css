@@ -1,0 +1,13 @@
+.jumbotron{
+    background-color:rebeccapurple;
+    color:whitesmoke;
+}
+
+.pad-vert-med{
+    padding:20px 0;
+}
+
+.footer{
+    background-color:#D5BAE9;
+    padding: 20px 0px;
+}
