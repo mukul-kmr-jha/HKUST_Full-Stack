@@ -48,6 +48,9 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+                <div class="col-6 col-sm-3 align-self-center">  
+                       <a href="#reserveForm" class="btn btn-block bg-warning">Reserve Table</a> 
+                </div>
             </div>
         </div>
     </header>
@@ -63,7 +66,7 @@
                         src="img/uthappizza.png" alt="Uthappizza">
                         <div class="media-body">
                             <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
-                            <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+                            <p class="d-none d-md-block">A unique combination of Indian Uthappam (pancake) and
                             Italian pizza, topped with Cerignola olives, ripe vine
                             cherry tomatoes, Vidalia onion, Guntur chillies and
                             Buffalo Paneer.
@@ -74,21 +77,21 @@
         </div> 
         
         <div class="row row-content align-items-center" style="height:300px">
-                <div class="col-12 col-sm-4 col-md-3">
+                <div class="col-12 col-sm-4 order-sm-first col-md-3">
                     <h3>This Month's Promotions</h3>
                 </div>
-                <div class="col col-sm col-md">
+                <div class="col col-sm order-sm-last col-md">
                     <div class="media">
+                        <img class="d-flex ml-3 img-thumbnail align-self-center order-last"
+                        src="img/uthappizza.png" alt="Uthappizza">
                         <div class="media-body">
-                            <h2 class="mt-0">Weekend Grand Buffet</h2>
-                            <p class="d-none d-sm-block">
+                            <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                            <p class="d-none d-md-block">
                                 Featuring mouthwatering combinations with a choice of five different salads, 
                                 six enticing appetizers, six main entrees and five choicest desserts. 
                                 Free flowing bubbly and soft drinks. All for just $19.99 per person 
                             </p>
                         </div>
-                        <img class="d-flex ml-3 img-thumbnail align-self-center"
-                        src="img/uthappizza.png" alt="Uthappizza">
                     </div>
                 </div>  
         </div> 
@@ -103,7 +106,7 @@
                     <div class="media-body">
                         <h2 class="mt-0">Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
-                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+                        <p class="d-none d-md-block">Award winning three-star Michelin chef with wide
                             International experience having worked closely with
                             whos-who in the culinary world, he specializes in
                             creating mouthwatering Indo-Italian fusion experiences.
@@ -112,9 +115,66 @@
                 </div>
             </div>
         </div>
-    </div>
 
-     <footer class="footer">
+    <div class="row row-content mb-3">
+        <div class="col-md-8 offset-md-2">  
+        <div class="card" id="reserveForm">
+        <div class="card-header bg-warning text-white">
+            <h3>
+                Reserve a Table
+            </h3>
+        </div>
+        <div class="card-body">
+            <form action="">
+                <div class="form-group row">
+                    <label for="seats" class="col-md-3 col-12">
+                      Numbers of Guests
+                    </label>
+                    <div class="input-group col-md-9 col-12 mt-0">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">2</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                            <label class="form-check-label" for="inlineRadio3">3</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">4</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">5</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                            <label class="form-check-label" for="inlineRadio3">6</label>
+                        </div>
+                    </div>
+                </div> 
+                <div class="form-group row">
+                    <label for="date" class="col-md-3 col-12">
+                        Date and Time
+                    </label>
+                    <input type="" class="col-md-3 mr-2 form-control" placeholder="Date">
+                    <input type="" class="col-md-3 mr-2 form-control" placeholder="Time">
+                </div>  
+                <div class="form-group row">
+                    <input type="button" value="Reserve" class="btn btn-primary offset-md-3 col-md-3">
+                </div> 
+            </form>
+
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+    <footer class="footer">
         <div class="container">
             <div class="row">             
                 <div class="col-4 offset-1 col-sm-2">
