@@ -1,5 +1,6 @@
 $lt-gray: #ddd;
 $background-dark: #512DA8;
+$background-darker:rebeccapurple;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 
@@ -23,7 +24,7 @@ $carousel-item-height: 300px;
 }
 
 .footer{
-    background-color: $background-pale;
+    background-color: $background-light;
     @include zero-margin(20px, 0px);
 }
 
@@ -66,10 +67,30 @@ body{
             min-height: 300px;
         }
     }
+    &-caption{
+        bottom:25%;
+    }
 }
 
 #carouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
+    z-index: 2;
+}
+
+/* Modal classes */
+
+.modal{
+    &-header{
+        color:floralwhite;
+        background-color: $background-dark;
+        & button{            
+            color:floralwhite;
+        }
+    }
+    &-body{
+        background-color: $background-pale;
+    }
+
 }

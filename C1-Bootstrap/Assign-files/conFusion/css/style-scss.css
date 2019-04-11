@@ -9,7 +9,7 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: #9575CD;
   margin: 0px auto;
   padding: 20px 0px; }
 
@@ -46,8 +46,19 @@ body {
       top: 0;
       left: 0;
       min-height: 300px; }
+  .carousel-caption {
+    bottom: 25%; }
 
 #carouselButton {
   right: 0px;
   position: absolute;
-  bottom: 0px; }
+  bottom: 0px;
+  z-index: 2; }
+
+/* Modal classes */
+.modal-header {
+  color: whitesmoke;
+  background-color: #512DA8; }
+
+.modal-body {
+  background-color: #D1C4E9; }
