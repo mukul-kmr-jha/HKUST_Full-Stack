@@ -41,3 +41,10 @@
 .carousel-caption{
     bottom:25%;
 }
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index:2;
+}
